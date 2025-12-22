@@ -2,23 +2,34 @@
 #include "dmx.h"
 #include <cstdint>
 
-class Engine {
+class LightEngine {
 public:
 
     void setIntensity(float intensity); // this is what dmx or midi will use when setting intensity of each channel
+    
     void tick();
+
     const DmxUniverse& universe() const;
+
+    uint64_t getTickCount() const;
+    uint8_t  getChannel(int channel) const;
+    
 
 private:
     DmxUniverse universe_;
+
+    float getIntesity() const; // helper function to get intensity value for a channel
 
     //testing tick variables can remove later
     int value_ = 0;
     int direction_ = 1;
 
     // end testing variables
+    float intensity_ ;
 
-    float intensity_ = 0.0f; // current intensity level (0.0 to 1.0)
+    uint64_t tickCount = 0;
+    uint8_t dmx[512]{};
+    
 
 
 };

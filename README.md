@@ -16,3 +16,14 @@ This is the only i work on for the next 6 months 19/12/2025
 
 first steps is make it understand dmx 
 
+everything is set up pretty much on git hub projects
+
+so gonna use it to moniter progress of the software
+
+
+goals
+
+-use it in the youth aud for testing
+-then move to the main aud
+-possibliy use it in psi to test random fixtures
+-will try and automate fixture generation as there is literly thousands of fixtures

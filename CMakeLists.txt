@@ -6,6 +6,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(lighting_desk
     src/main.cpp
-    src/engine.cpp
+    src/light_engine.cpp
     src/dmx.cpp
 )
