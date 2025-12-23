@@ -18,7 +18,7 @@ void LightEngine::setIntensity(float intensity) {
     intensity_ = clamped_intensity;
 }
 
-float LightEngine::getIntesity() const {
+float LightEngine::getIntensity() const {
     return intensity_;
 }
 

@@ -14,11 +14,12 @@ public:
     uint64_t getTickCount() const;
     uint8_t  getChannel(int channel) const;
     
+    float getIntensity() const; // helper function to get intensity value for a channel
+
 
 private:
     DmxUniverse universe_;
 
-    float getIntesity() const; // helper function to get intensity value for a channel
 
     //testing tick variables can remove later
     int value_ = 0;

@@ -9,6 +9,7 @@ FetchContent_MakeAvailable(googletest)
 
 add_executable(lighting_desk_tests
     universe_tests.cpp
+    light_engine_intensity_test.cpp
     # add other test files here
 )
 
