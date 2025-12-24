@@ -3,6 +3,8 @@ include(FetchContent)
 FetchContent_Declare(
   googletest
   URL https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip
+  DOWNLOAD_EXTRACT_TIMESTAMP TRUE
+
 )
 
 FetchContent_MakeAvailable(googletest)
@@ -10,6 +12,7 @@ FetchContent_MakeAvailable(googletest)
 add_executable(lighting_desk_tests
     universe_tests.cpp
     light_engine_intensity_test.cpp
+    dmx_universe_test.cpp
     # add other test files here
 )
 

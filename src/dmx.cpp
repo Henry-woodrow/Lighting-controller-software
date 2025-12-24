@@ -16,3 +16,4 @@ uint8_t DmxUniverse::get(uint16_t channel) const {
 const std::array<uint8_t, 512>& DmxUniverse::data() const {
     return channels_;
 }
+
