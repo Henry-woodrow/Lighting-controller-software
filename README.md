@@ -12,7 +12,7 @@ i want it to be easy to use
 steps to get there!
 
 
-This is the only i work on for the next 6 months 19/12/2025
+This is the only thing i work on for the next 6 months 19/12/2025
 
 first steps is make it understand dmx 
 
